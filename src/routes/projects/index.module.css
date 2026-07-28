@@ -1,0 +1,8 @@
+.root {
+  min-height: var(--page-content-height);
+}
+
+.container {
+  padding-bottom: var(--mantine-spacing-xl);
+  padding-top: var(--mantine-spacing-xl);
+}

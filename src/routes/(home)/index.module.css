@@ -1,0 +1,71 @@
+.hero {
+  --overlay-color: rgb(0 0 0 / 50%);
+
+  background:
+    linear-gradient(to right, var(--overlay-color), rgb(0 0 0 / 0%)),
+    url("@/assets/backgrounds/hero-image.webp") center / cover;
+  height: var(--page-content-height);
+  position: relative;
+
+  @mixin smaller-than $mantine-breakpoint-sm {
+    background:
+      linear-gradient(to bottom, var(--overlay-color)),
+      url("@/assets/backgrounds/hero-image.webp") center / cover;
+  }
+}
+
+.heroWrapper {
+  height: var(--page-content-height);
+}
+
+.heroContent {
+  color: var(--mantine-color-white);
+  font-family: var(--accent-font-family);
+}
+
+.heroTitle,
+.heroImageCredits {
+  max-width: 75%;
+
+  @mixin smaller-than $mantine-breakpoint-sm {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+.heroTitle {
+  font-family: inherit;
+  font-size: 4rem;
+  line-height: 1.05;
+}
+
+.heroImageCredits {
+  margin-top: var(--mantine-spacing-lg);
+  opacity: 0.75;
+}
+
+.page {
+  position: relative;
+}
+
+.container {
+  padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+  padding-top: calc(var(--mantine-spacing-xl) * 2);
+
+  @mixin smaller-than $mantine-breakpoint-sm {
+    padding-bottom: var(--mantine-spacing-xl);
+    padding-top: var(--mantine-spacing-xl);
+  }
+}
+
+.experienceImage {
+  height: 100%;
+
+  @mixin smaller-than $mantine-breakpoint-sm {
+    max-height: 15rem;
+  }
+}
+
+.experienceTimelineWrapper {
+  padding-top: var(--mantine-spacing-xl);
+}

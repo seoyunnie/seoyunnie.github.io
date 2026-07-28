@@ -1,0 +1,18 @@
+.header {
+  @mixin smaller-than $mantine-breakpoint-sm {
+    text-align: center;
+  }
+}
+
+.title {
+  font-size: calc(var(--mantine-font-size-lg) * 2);
+}
+
+.subtitle {
+  color: var(--mantine-color-dimmed);
+}
+
+.message {
+  color: var(--mantine-color-dimmed);
+  text-align: center;
+}

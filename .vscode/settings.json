@@ -1,0 +1,25 @@
+{
+  "files.readonlyInclude": {
+    "src/route-tree.gen.ts": true
+  },
+  "files.watcherExclude": {
+    "src/route-tree.gen.ts": true
+  },
+  "search.exclude": {
+    "src/route-tree.gen.ts": true
+  },
+
+  "cssVariables.lookupFiles": ["**/*.css", "node_modules/@mantine/core/styles.css"],
+
+  "stylelint.configFile": "stylelint.config.ts",
+
+  "oxc.configPath": "oxlint.config.ts",
+  "oxc.disableNestedConfig": true,
+  "oxc.enable": true,
+  "oxc.fmt.configPath": "oxfmt.config.ts",
+  "oxc.tsConfigPath": "tsconfig.json",
+
+  "[html][javascript][json][jsonc][markdown][postcss][typescript][typescriptreact][yaml]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  }
+}

@@ -1,0 +1,11 @@
+.root {
+  &[data-border="horizontal"] {
+    border-left: none;
+    border-right: none;
+  }
+
+  &[data-border="vertical"] {
+    border-bottom: none;
+    border-top: none;
+  }
+}

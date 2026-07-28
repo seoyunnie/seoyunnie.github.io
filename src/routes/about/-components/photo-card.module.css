@@ -1,0 +1,19 @@
+.root {
+  height: 20rem;
+}
+
+.content {
+  color: var(--mantine-color-white);
+  height: 100%;
+  margin: var(--mantine-spacing-xs);
+}
+
+.subtitle {
+  opacity: 0.75;
+  text-transform: uppercase;
+}
+
+.countryFlag {
+  height: 2.25rem;
+  width: auto;
+}

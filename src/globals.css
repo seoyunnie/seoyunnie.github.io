@@ -1,0 +1,15 @@
+:root {
+  --header-height: 3.5rem;
+  --page-content-height: calc(100dvh - var(--header-height));
+  --accent-font-family: "Fusion Pixel 10px Proportional KR", var(--mantine-font-family);
+}
+
+.background-dot-grid {
+  background-color: var(--mantine-color-body);
+  background-image: radial-gradient(circle, var(--mantine-color-dimmed) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.inline-icon {
+  vertical-align: middle;
+}

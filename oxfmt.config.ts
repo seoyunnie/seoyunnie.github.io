@@ -1,0 +1,8 @@
+import config from "@seoyunnie/oxc-config/oxfmt";
+import { defineConfig } from "oxfmt";
+
+export default defineConfig({
+  ignorePatterns: ["src/route-tree.gen.ts"],
+
+  ...config,
+});

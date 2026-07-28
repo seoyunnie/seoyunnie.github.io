@@ -1,0 +1,9 @@
+# Dependency Resolution
+overrides:
+  "stylelint>cosmiconfig": "10.0.0-alpha.0"
+minimumReleaseAgeExclude:
+  - "@seoyunnie/*"
+
+# Build Settings
+allowBuilds:
+  sharp: true
