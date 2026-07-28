@@ -1,0 +1,34 @@
+.root {
+  background: linear-gradient(rgb(0 0 0 / 40%), rgb(0 0 0 / 40%)), url("@/assets/backgrounds/glitch-noise-dark.webp");
+  height: var(--page-content-height);
+}
+
+.container {
+  height: 100%;
+}
+
+.content {
+  font-family: var(--accent-font-family);
+  height: 100%;
+  text-align: center;
+}
+
+.statusCode {
+  color: var(--mantine-primary-color-filled);
+  font-family: inherit;
+  font-size: calc(var(--mantine-h1-font-size) * 5);
+}
+
+.title {
+  color: var(--mantine-color-white);
+  font-family: inherit;
+}
+
+.message {
+  color: darken(var(--mantine-color-white), 0.25);
+}
+
+.returnButton {
+  font-family: var(--mantine-font-family);
+  margin-top: var(--mantine-spacing-xs);
+}
