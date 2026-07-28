@@ -1,0 +1,13 @@
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Node.js
+.tanstack/
+dist/
+node_modules/
+.stylelintcache
+
+# macOS
+**/.DS_Store

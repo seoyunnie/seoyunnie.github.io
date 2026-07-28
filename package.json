@@ -1,0 +1,82 @@
+{
+  "$schema": "https://www.schemastore.org/package.json",
+  "name": "@seoyunnie/portfolio-website",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://seoyunnie.github.io",
+  "license": "MIT",
+  "author": "Seoyun",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seoyunnie/seoyunnie.github.io.git"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "fmt": "oxfmt",
+    "fmt:check": "pnpm run fmt --check",
+    "lint": "pnpm run lint:js && pnpm run lint:css",
+    "lint:css": "stylelint \"**/*.css\" --cache",
+    "lint:css:fix": "pnpm run lint:css --fix",
+    "lint:fix": "pnpm run lint:js:fix && pnpm run lint:css:fix",
+    "lint:js": "oxlint",
+    "lint:js:fix": "pnpm run lint:js --fix",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/roboto": "^5.3.0",
+    "@fontsource/fusion-pixel-10px-proportional-kr": "^5.3.0",
+    "@icons-pack/react-simple-icons": "^13.13.0",
+    "@mantine/core": "^9.5.0",
+    "@mantine/hooks": "^9.5.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "@tanstack/react-router": "^1.170.18",
+    "@tanstack/react-router-devtools": "^1.167.0",
+    "clsx": "^2.1.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^8.0.1",
+    "@rolldown/plugin-babel": "^0.2.3",
+    "@seoyunnie/oxc-config": "^1.5.0",
+    "@tanstack/eslint-plugin-router": "^1.162.0",
+    "@tanstack/router-plugin": "^1.168.23",
+    "@types/babel__core": "^7.20.5",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint-plugin-perfectionist": "^5.10.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "oxfmt": "^0.61.0",
+    "oxlint": "^1.76.0",
+    "oxlint-tsgolint": "^7.0.2001",
+    "postcss": "^8.5.23",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
+    "sharp": "^0.35.3",
+    "stylelint": "^17.14.1",
+    "stylelint-config-css-modules": "^4.6.0",
+    "stylelint-config-standard": "^40.0.0",
+    "svgo": "^4.0.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5",
+    "vite-plugin-image-optimizer": "^2.0.3"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.17.0",
+      "onFail": "error"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "^24.11.1",
+      "onFail": "error"
+    }
+  },
+  "packageManager": "pnpm@11.17.0+sha512.cca3cea332ad254bb84145f966d19f4879615210346fc92c79a047f23a0d7b3cca3c3792f0076ba1f1831d277efbcf0a9119b31a9a60eca7fb3d6231f331ef72"
+}
