@@ -1,0 +1,8 @@
+.coverImage {
+  height: 12rem;
+}
+
+.content {
+  height: 100%;
+  margin-top: var(--mantine-spacing-md);
+}

@@ -1,0 +1,16 @@
+.container {
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.logo {
+  color: var(--mantine-color-bright);
+  text-decoration: none;
+}
+
+.logoText {
+  font-family: var(--accent-font-family);
+}

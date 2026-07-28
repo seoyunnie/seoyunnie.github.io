@@ -1,0 +1,13 @@
+.root {
+  border-radius: var(--mantine-radius-default);
+  padding: var(--mantine-spacing-xs);
+  transition:
+    box-shadow 150ms ease,
+    transform 150ms ease;
+
+  @mixin hover {
+    background-color: var(--mantine-color-default-hover);
+    box-shadow: var(--mantine-shadow-md);
+    transform: translateY(-1.5px) scale(1.015);
+  }
+}
