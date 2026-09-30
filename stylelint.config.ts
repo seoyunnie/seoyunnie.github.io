@@ -13,6 +13,9 @@ export default {
     "at-rule-prelude-no-invalid": [true, { ignoreAtRules: ["mixin"] }],
     "selector-no-invalid": true,
 
+    /* Unmatchable */
+    "selector-no-unmatchable": true,
+
     /* Unknown */
     "at-rule-no-unknown": [true, { ignoreAtRules: ["mixin"] }],
 
