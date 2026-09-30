@@ -17,6 +17,7 @@
   "oxc.disableNestedConfig": true,
   "oxc.enable": true,
   "oxc.fmt.configPath": "oxfmt.config.ts",
+  "oxc.fmt.disableNestedConfig": true,
   "oxc.tsConfigPath": "tsconfig.json",
 
   "[html][javascript][json][jsonc][markdown][postcss][typescript][typescriptreact][yaml]": {
