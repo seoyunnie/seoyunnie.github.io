@@ -24,7 +24,6 @@ export default defineConfig({
       jsPlugins: [
         { name: "tanstack-router", specifier: "@tanstack/eslint-plugin-router" },
         "eslint-plugin-perfectionist",
-        { name: "react-compiler", specifier: "eslint-plugin-react-hooks" },
       ],
       rules: {
         /* @tanstack/eslint-plugin-router */
@@ -33,23 +32,6 @@ export default defineConfig({
 
         /* eslint-plugin-perfectionist */
         "perfectionist/sort-jsx-props": ["error", { type: "natural" }],
-
-        /* eslint-plugin-react-hooks */
-        "react-compiler/component-hook-factories": "error",
-        "react-compiler/config": "error",
-        "react-compiler/error-boundaries": "error",
-        "react-compiler/gating": "error",
-        "react-compiler/globals": "error",
-        "react-compiler/immutability": "error",
-        "react-compiler/incompatible-library": "error",
-        "react-compiler/preserve-manual-memoization": "error",
-        "react-compiler/purity": "error",
-        "react-compiler/refs": "error",
-        "react-compiler/set-state-in-effect": "error",
-        "react-compiler/set-state-in-render": "error",
-        "react-compiler/static-components": "error",
-        "react-compiler/unsupported-syntax": "error",
-        "react-compiler/use-memo": "error",
       },
     },
 
